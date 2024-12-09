@@ -4,9 +4,10 @@ from openai import OpenAI
 # Show title and description.
 st.title("💬 Chatbot")
 st.write(
-    "This is a simple chatbot that uses OpenAI's GPT-3.5 model to generate responses. "
-    "To use this app, you need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
-    "You can also learn how to build this app step by step by [following our tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
+    "This is an AI assistant that will act as a psychiatrist for astronaturs in deep space. "
+    "Psych AI uses the Chat-GPT 4o connected to a vector dataspece filled with psychology papers and guides"
+    "This architecture allows for Psych AI to have the knowledge of a professional psychologist."
+    "This AI can greatly help astronauts in deepspace where mental health can be hard to accss"
 )
 
 # Ask user for their OpenAI API key via `st.text_input`.
